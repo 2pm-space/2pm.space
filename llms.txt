@@ -1,0 +1,42 @@
+# 2pm.space
+
+> Build AI agents with skills, tools and guardrails, then put them to work: an omnichannel inbox for Messenger and Zalo, plain-language answers from your database, an AI content calendar, and a shared Drive of documents, mind maps and tables.
+
+This repository is the 2pm.space website (https://2pm.space) as Markdown: every public page, generated from the site's own copy. English is at the root; Tiếng Việt (`vi/`), 中文 (`zh/`), 日本語 (`ja/`), 한국어 (`ko/`), ไทย (`th/`), Français (`fr/`), ລາວ (`lo/`) hold the same files in that language. The legal pages (/privacy-policy, /delete-account) are linked, not copied.
+
+## Product
+
+- [AI Inbox](ai-inbox.md): Answer Messenger, Facebook comments, Zalo, Telegram and website chat from one shared inbox, with an AI agent that knows your products and a Pause AI switch on every thread.
+- [Live Chat](live-chat.md): Add an AI live chat widget to your website with one script tag. Your colours and greeting, a pre-chat form, eight languages, placement per device — and every chat in the same inbox as Messenger, Telegram and Zalo.
+- [Customer 360](customer-360.md): Customer 360 in the Inbox: open a conversation and the same person's messages from your other channels are already there — matched on phone or email — beside detected numbers, the linked customer and live data from your own systems.
+- [Ask Data](ask-data.md): Connect PostgreSQL, MySQL, Redshift, ClickHouse, Snowflake or BigQuery, define your measures once, and let your team ask questions in plain language — with the SQL and a chart attached to every answer.
+- [BI Dashboards](bi-dashboards.md): Pin charts from Ask Data or SQL Lab onto shared BI boards: tabs, nine chart types, board-wide filters on your data model, period comparison and number formats — on PostgreSQL, MySQL, BigQuery, Snowflake, Redshift or ClickHouse.
+- [Content Calendar](content-calendar.md): Plan, write, illustrate, approve and publish content from one calendar. Ideas planned against your Brand, images generated on a canvas, and delivery to Facebook Pages, WordPress or your own webhook.
+- [Brand Kit](brand-kit.md): Give every AI writer and illustrator the same brief: brand voice, a named colour palette and visual style, image references, brand documents, the products it sells and the footer under every post — used by Content Calendar, Magic Studio and your agents.
+- [Magic Studio](magic-studio.md): Generate on-brand product images on a canvas of steps you can rerun: 25 image models including GPT Image, FLUX.2, Seedream and Nano Banana, reference-based editing and background removal.
+- [Storyboard](storyboard.md): Write a video from a brief into scenes, shots and panels with consistent characters and products, then render each shot or a whole scene with Kling or Seedance — with the cost shown before you render.
+- [Mind Map](mind-map.md): Make mind maps online for free — unlimited nodes, unlimited mindmaps, and real-time collaboration with live cursors. Try the live editor below, no sign-up needed.
+- [Mobile App](mobile-app.md): Install the 2pm mobile app: iPhone and iPad from the App Store, Android as a direct APK download. Step-by-step, with what to tap when your phone warns you.
+
+## Platform
+
+- [Agent Builder](agent-builder.md): Build AI agents as one prompt or as a workflow: 16 node types for retrieval, tools, evaluation loops, human review and branching. Test runs with per-step logs, canvas versions, and deployment to your inbox, a schedule or an MCP client.
+- [Tool Catalog](tools.md): Give your AI agents tools: 60 built-in tools for search, knowledge, data, email, calendars and Drive; your own HTTP APIs and sandboxed Python; any MCP server; and integrations with Viettel Post, KiotViet, WordPress and ERPNext.
+- [Scheduler](scheduler.md): Schedule an AI agent to run on its own: one-time, daily, weekly, monthly or cron, in your timezone. Batch API runs at about half the cost, limits on runs and expiry, and a history of every answer with its tokens and cost.
+- [Integrations](integrations.md): Connect messaging channels, HTTP APIs, 6 databases, MCP servers and sandboxed code to your AI agents — described rather than coded, with an API and an MCP endpoint of its own.
+- [MCP Server](mcp-server.md): A remote MCP server for your 2pm.space workspace. Connect Claude Code, Cursor or any MCP client with an API key, and build agents, edit Drive documents and mind maps, query databases and manage boards from your editor — over 300 tools, limited to what the key allows.
+- [Fine-Tuning](fine-tuning.md): Rate your AI agent's replies in the inbox, correct the ones that missed, tune an open-weight model on those pairs with LoRA, and point an agent at the result — billed from the same credit balance as everything else.
+- [Security](security.md): Per-resource permissions, custom roles, team and channel-level access, encrypted credentials, guardrails on agent output, per-run audit logs, and scheduled backups.
+- [Pricing](pricing.md): Every feature is free — no plans, no seats, no feature gates. Model usage is billed at the provider’s own rate with no markup, and the platform takes one flat fee when you add credit.
+
+## Company
+
+- [Contact](contact.md): Get in touch with the 2pm.space team on Telegram about the platform, integrations, or privacy requests.
+- [Privacy Policy](https://2pm.space/privacy-policy)
+- [Delete your account](https://2pm.space/delete-account)
+
+## Optional
+
+- [Home](README.md): 2pm.space — AI Agents, Omnichannel Inbox & Data Chat
+- [llms.txt on the live site](https://2pm.space/llms.txt): the same index, linking the live pages
+- [AI catalog](https://2pm.space/.well-known/ai-catalog.json): the workspace MCP server, for agent registries
